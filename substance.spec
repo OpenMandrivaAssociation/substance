@@ -2,7 +2,7 @@
 
 Name:           substance
 Version:        4.3
-Release:        %mkrel 0.0.1
+Release:        %mkrel 0.0.2
 Summary:        Substance Look and Feel
 License:        BSD
 Group:          Development/Java
@@ -20,7 +20,8 @@ BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
-A configurable and customizable production-quality Java look and feel library for Swing applications. 
+A configurable and customizable production-quality Java look and feel library
+for Swing applications. 
 This Java look and feel is available for JDK 5.0+ only.
 
 #%package        javadoc
