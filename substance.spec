@@ -1,7 +1,7 @@
 #TODO provide javadoc 
 
 Name:           substance
-Version:        2.0.235
+Version:        4.3
 Release:        %mkrel 0.0.1
 Summary:        Substance Look and Feel
 License:        BSD
