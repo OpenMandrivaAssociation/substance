@@ -15,6 +15,7 @@ BuildRequires:  ant
 BuildRequires:  laf-widget
 BuildRequires:  laf-plugin
 BuildRequires:  jgoodies-forms
+BuildRequires:  asm2
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -35,7 +36,7 @@ cp %{SOURCE1} build.properties
 %remove_java_binaries
 
 %build
-export CLASSPATH=$(build-classpath laf-widget laf-plugin jgoodies-forms)
+export CLASSPATH=$(build-classpath asm2 laf-widget laf-plugin jgoodies-forms)
 ln -s $(build-classpath laf-plugin) lib/laf-plugin-50.jar
 ln -s $(build-classpath laf-widget) lib/laf-widget.jar
 %{ant} -Dbuild.sysclasspath=first jar
