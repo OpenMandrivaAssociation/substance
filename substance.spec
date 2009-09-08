@@ -2,7 +2,7 @@
 
 Name:           substance
 Version:        4.3.11
-Release:        %mkrel 0.0.1
+Release:        %mkrel 0.0.2
 Summary:        Substance Look and Feel
 License:        BSD
 Group:          Development/Java
